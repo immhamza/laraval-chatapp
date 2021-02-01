@@ -10,10 +10,10 @@
 - Set up your database and update the DB name in .env file.
 - Login to pusher account and set the credentials.
 
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_APP_CLUSTER+
+PUSHER_APP_ID=""
+PUSHER_APP_KEY=""
+PUSHER_APP_SECRET=""
+PUSHER_APP_CLUSTER=""
 
 
 - run npm install then npm run dev.
