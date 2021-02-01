@@ -8,16 +8,17 @@
 - Download or git clone project.
 - Copy .envexample file and make new file named it .env.
 - Set up your database and update the DB name in .env file.
-- Login to pusher account and set the credentials.
+- Update .env
 
-PUSHER_APP_ID=""
-PUSHER_APP_KEY=""
-PUSHER_APP_SECRET=""
-PUSHER_APP_CLUSTER=""
+PUSHER_APP_ID=anyID
+PUSHER_APP_KEY=anyKey
+PUSHER_APP_SECRET=anySecret
+PUSHER_APP_CLUSTER=mt1
 
 
 - run npm install then npm run dev.
-- php artisan serve.
+- run php artisan websocket:serve in one terminal. 
+- php artisan serve in other terminal.
 - Remember that for image uplaod run php artisan link:storage and update the APP_URL=http://localhost to APP_URL=http://localhost:8000
 
 
