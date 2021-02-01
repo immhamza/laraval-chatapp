@@ -16,6 +16,7 @@ PUSHER_APP_SECRET=anySecret
 PUSHER_APP_CLUSTER=mt1
 
 
+- php artisan migrate.
 - run npm install then npm run dev.
 - run php artisan websocket:serve in one terminal. 
 - php artisan serve in other terminal.
